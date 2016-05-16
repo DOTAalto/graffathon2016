@@ -19,50 +19,154 @@ $color5: #ff1654; //rgba(255, 22, 84, 100)
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+//
+body {
+  padding-bottom: 30px;
+}
 
-.container {
-  width: 800px;
-  margin: 0 auto;
-}
 .header {
-  background-color: $color1;
-  height: 100px;
-  h1 {
-    color: white;
-    font-family: Oswald;
-    margin: 0;
-    font-size: 40px;
-    padding: 15px 30px;
-    font-weight: 300;
-    display: inline-block;
-  }
-  p {
-    color: white;
-    display: inline-block;
-    font-family: Oswald;
-    font-weight: 300;
-  }
-}
-.content {
-  font-size: 22px;
-  font-family: Open Sans;
+  padding-top: 30px;
+  display: flex;
   h1 {
     font-family: Oswald;
-    text-align: center;
+    color: $color1;
+    flex-grow: 1;
+    font-weight: 600;
+    span {
+      font-size: 60%;
+      padding-left: 5px;
+      display: inline-block;
+      font-weight: 300;
+    }
+  }
+  .navigation {
+    padding-top: 40px;
+    a {
+      color: $color1;
+      text-decoration: none;
+      font-weight: 20px;
+      font-weight: bold;
+      display: inline-block;
+      padding: 0px 10px;
+    }
   }
 }
-.aftermovieWrapper {
-  margin: 0px auto;
-  margin-top: 30px;
-  width: 600px;
-  p {
-    color: gray;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    margin-top: 10px;
-    font-size: 14px;
+.container {
+  width: 900px;
+  margin: 0 auto;
+  img {
+    width: 100%;
   }
+}
+.location-jumbo {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  .location {
+    padding: 15px;
+    width: 50%;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    h3 {
+      margin: 0;
+    }
+  }
+}
+.jumbo {
+  width: 900px;
+  height: 600px;
+  background-image: url(../images/jumbo.jpg);
+  background-size: cover;
+  .text {
+    width: 50%;
+    color: white;
+    font-family: Helvetica, Arial;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 300;
+  }
+  .btn {
+    margin-top: 100px;
+  }
+  .date {
+    // height: 60px;
+    padding-top: 15px;
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 30px;
+    // div {
+    //   padding-top: 20px;
+    // }
+  }
+}
+.btn {
+  // background-color: $color2;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 4px $color2 solid;
+  color: $color2 !important;
+  display: inline-block;
+  padding: 15px 40px;
+  text-decoration: none;
+}
+.divided {
+  display: flex;
+  flex-direction: row;
+  margin-left: -20px;
+  margin-right: -20px;
+  .part {
+    width: 50%;
+    padding: 20px;
+  }
+}
+// .header {
+//   background-color: $color1;
+//   height: 100px;
+//   h1 {
+//     color: white;
+//     font-family: Oswald;
+//     margin: 0;
+//     font-size: 40px;
+//     padding: 15px 30px;
+//     font-weight: 300;
+//     display: inline-block;
+//   }
+//   p {
+//     color: white;
+//     display: inline-block;
+//     font-family: Oswald;
+//     font-weight: 300;
+//   }
+// }
+// .content {
+//   font-size: 22px;
+//   font-family: Open Sans;
+//   h1 {
+//     font-family: Oswald;
+//     text-align: center;
+//   }
+// }
+// .aftermovieWrapper {
+//   margin: 0px auto;
+//   margin-top: 30px;
+//   width: 600px;
+//   p {
+//     color: gray;
+//     text-align: center;
+//     padding: 0;
+//     margin: 0;
+//     margin-top: 10px;
+//     font-size: 14px;
+//   }
+// }
+
+.videoCaption {
+  color: gray;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 14px;
 }
 .videoWrapper {
 	position: relative;
@@ -77,25 +181,36 @@ $color5: #ff1654; //rgba(255, 22, 84, 100)
 	width: 100%;
 	height: 100%;
 }
-
-.yeogurt-info {
-  text-align: center;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+.who-is-behind-this {
+  padding-top: 20px;
+  p {
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  img {
+    width: 250px;
+  }
 }
-
-.version {
-  font-size: 14px;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
-.logo {
-  margin-top: 15px;
-}
+//
+// .yeogurt-info {
+//   text-align: center;
+//   max-width: 500px;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+//
+// .version {
+//   font-size: 14px;
+//   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+//   position: absolute;
+//   bottom: 10px;
+//   right: 10px;
+// }
+//
+// .logo {
+//   margin-top: 15px;
+// }
 
 // Styling on warning for users on IE7 or below
 .browsehappy {

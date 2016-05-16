@@ -3,17 +3,31 @@
 {% import "_modules/link/link.nunjucks" as link %}
 
 {% block content %}
-<div class="container">
-  <div class="content">
-    <h1>Come create computer graphics with us!</h1>
-    <div class="aftermovieWrapper">
-      <div class="videoWrapper aftermovie">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kCJHc0odn_Q?modestbranding=1&showinfo=0&theme=light" frameborder="0" allowfullscreen style="width:100%;"></iframe>
+  <div class="container">
+    <div class="jumbo">
+      <div class="text">
+        <p>Graffathon is a three-day computer graphics hackathon aimed for novices. Every participant will create a computer program that produces a non-interactive multimedia presentation also known as demo. The event is targeted at real beginners who have no previous graphics coding and/or demoscene experience. The demos can be done in small groups of two or three people. One can also make the demo by themselves or find a group at the event.</p>
+        <p>The program consists of helpful presentations and workshops which guide you on how to create your first demo. In addition, we teach you the basics of demoscene and democulture.</p>
+        <a href="#" class="btn">Register</a>
+        <div class="date"><div>10.–12.6.2016<br>Espoo, Finland</div></div>
       </div>
-      <p>Aftermovie for Graffathon 2015</p>
     </div>
-    <p>Graffathon is a three-day computer graphics hackathon aimed for novices. Every participant will create a computer program that produces a non-interactive multimedia presentation also known as demo. The event is targeted at real beginners who have no previous graphics coding and/or demoscene experience. The demos can be done in small groups of two or three people. One can also make the demo by themselves or find a group at the event.</p>
-    <p>The program consists of helpful presentations and workshops which guide you on how to create your first demo. In addition, we teach you the basics of demoscene and democulture.</p>
+    <div class="divided">
+      <div class="part">
+        <img src="images/people.jpg">
+        <p>To participate you only need basic programming skills (from any language) and basic math skills - you do not have to be able to code graphics, make music or draw. Just bring your computer. You will learn. We provide all the tools and material to get you started.</p>
+        <p>Your computer does not have to be the latest and greatest (you do not need a crazy graphics card to try out graphics programming). Almost any computer will do. If you do not have have computer you can still work with your friend on one computer. Pair programming can be fun too!</p>
+      </div>
+      <div class="part">
+        <div class="videoWrapper aftermovie">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/kCJHc0odn_Q?modestbranding=1&showinfo=0&theme=light" frameborder="0" allowfullscreen style="width:100%;"></iframe>
+        </div>
+        <p class="videoCaption">Aftermovie for Graffathon 2015</p>
+      </div>
+    </div>
+    <div class="who-is-behind-this">
+      <img src="http://dot.ayy.fi/uploads/images/dot_logo_2011_small.png" alt="Digital Media Club Aalto University">
+      <p>The event is organized by the active members of DOT board and the facilities are provided by Aalto ES.<br> Contact us at dot-hallitus@list.ayy.fi</p>
+    </div>
   </div>
-</div>
 {% endblock %}
