@@ -6,5 +6,7 @@
 {% endblock %}
 
 {% block content %}
-<p>getting-started page</p>
+<div class="container">
+  Under construction
+</div>
 {% endblock %}
