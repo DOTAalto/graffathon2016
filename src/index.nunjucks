@@ -8,7 +8,7 @@
       <div class="text">
         <p>Graffathon is a three-day computer graphics hackathon aimed for novices. Every participant will create a computer program that produces a non-interactive multimedia presentation also known as demo. The event is targeted at real beginners who have no previous graphics coding and/or demoscene experience. The demos can be made in small groups of two or three people. One can also make the demo by themselves or find a group at the event.</p>
         <p>The program consists of helpful presentations and workshops which guide you on how to create your first demo. In addition, we teach you the basics of demoscene and democulture.</p>
-        <a href="https://www.facebook.com/events/1097993556930608/" class="btn">Facebook</a>
+        <a href="https://docs.google.com/forms/d/1bBYOTWstzhHV22uWFBqcMmW0MPTZjC6PNz3ZdzsEmvU/viewform?c=0&w=1" class="btn">Register</a>
         <div class="date"><div>10.–12.6.2016<br>Espoo, Finland</div></div>
       </div>
     </div>
@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="who-is-behind-this">
-      <img src="http://dot.ayy.fi/uploads/images/dot_logo_2011_small.png" alt="Digital Media Club Aalto University">
+      <a href="http://dot.ayy.fi"><img src="http://dot.ayy.fi/uploads/images/dot_logo_2011_small.png" alt="Digital Media Club Aalto University"></a>
       <p>The event is organized by the active members of DOT board and the facilities are provided by Aalto ES.<br> Contact us at dot-hallitus@list.ayy.fi</p>
     </div>
   </div>

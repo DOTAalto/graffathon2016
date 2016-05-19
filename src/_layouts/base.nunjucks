@@ -41,11 +41,16 @@
     <div class="container">
       <div class="header">
         <h1>Graffathon <span>2016</span></h1>
+        <div class="fb">
+          <a href="https://www.facebook.com/events/1097993556930608/1110439679019329/">
+            <img src="{{ baseUrl }}images/find-us.png" alt="Find us on Facebook">
+          </a>
+        </div>
         <div class="navigation">
           <a href="{{ baseUrl }}">Home</a>
           {# <a href="/getting-started">Getting started</a> #}
           {# <a href="/schedule">Schedule</a> #}
-          <a href="{{ baseUrl }}/location">Location</a>
+          <a href="{{ baseUrl }}location">Location</a>
           <a href="/2015/">2015</a>
         </div>
       </div>

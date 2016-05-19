@@ -30,13 +30,22 @@ body {
   h1 {
     font-family: Oswald;
     color: $color1;
-    flex-grow: 1;
+    flex-grow: 0;
     font-weight: 600;
     span {
       font-size: 60%;
       padding-left: 5px;
       display: inline-block;
       font-weight: 300;
+    }
+  }
+  .fb {
+    padding-left: 40px;
+    padding-top: 43px;
+    flex-grow: 1;
+    img {
+      height: 15px;
+      width: auto;
     }
   }
   .navigation {
