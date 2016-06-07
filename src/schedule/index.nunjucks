@@ -7,6 +7,76 @@
 
 {% block content %}
 <div class="container">
-  Under construction
+  <section class="schedule-section">
+    <h2>Friday 10.6.</h2>
+    <table class="table">
+      <tr>
+        <td>17:00</td>
+        <td>Doors open</td>
+      </tr>
+      <tr>
+        <td>18:00</td>
+        <td>Opening ceremony</td>
+      </tr>
+      <tr>
+        <td>18:30</td>
+        <td>The demoscene</td>
+      </tr>
+      <tr>
+        <td>19:30</td>
+        <td>Basics of demo programming</td>
+      </tr>
+    </table>
+    <p>Doors close for Friday night.</p>
+  </section>
+
+  <section class="schedule-section">
+    <h2>Saturday 11.6.</h2>
+    <table class="table">
+      <tr>
+        <td>8:00</td>
+        <td>Doors open</td>
+      </tr>
+      <tr>
+        <td>14:00</td>
+        <td>Presentation by Rightware about shaders</td>
+      </tr>
+    </table>
+    <p>We are open the night from Saturday to Sunday.</p>
+  </section>
+
+  <section class="schedule-section">
+    <h2>Sunday 12.6.</h2>
+    <table class="table">
+      <tr>
+        <td>14:00</td>
+        <td>Deadline for demos</td>
+      </tr>
+      <tr>
+        <td>14:15</td>
+        <td>Presentation 1</td>
+      </tr>
+      <tr>
+        <td>14:45</td>
+        <td>Presentation 2</td>
+      </tr>
+      <tr>
+        <td>15:15</td>
+        <td>BBQ</td>
+      </tr>
+      <tr>
+        <td>17:30</td>
+        <td>Oldschool compo</td>
+      </tr>
+      <tr>
+        <td>18:00</td>
+        <td>Beginner compo</td>
+      </tr>
+      <tr>
+        <td>21:00</td>
+        <td>Awards</td>
+      </tr>
+    </table>
+  </section>
 </div>
 {% endblock %}
