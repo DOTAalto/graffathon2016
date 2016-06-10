@@ -4,6 +4,7 @@
 
 {% block content %}
   <div class="container">
+    <iframe src="http://oubs.fi/live/" width="900" height="510"></iframe>
     <div class="jumbo">
       <div class="text">
         <p>Graffathon is a three-day computer graphics hackathon aimed for novices. Every participant will create a computer program that produces a non-interactive multimedia presentation also known as demo. The event is targeted at real beginners who have no previous graphics coding and/or demoscene experience. The demos can be made in small groups of two or three people. One can also make the demo by themselves or find a group at the event.</p>
