@@ -19,6 +19,19 @@ $color5: #ff1654; //rgba(255, 22, 84, 100)
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+a:link, a:visited {
+  color: $color1;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul li {
+  padding: 3px;
+  list-style: square;
+}
+
 //
 body {
   padding-bottom: 30px;

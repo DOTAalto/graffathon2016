@@ -7,6 +7,19 @@
 
 {% block content %}
 <div class="container">
-  Under construction
+  <h2>Getting started</h2>
+  <p>Feel free to ask the organizers to help you!</p>
+  <ul>
+    <li><a href="https://github.com/anttihirvonen/demoscene-starter-kits">See our starter kit for getting started</a></li>
+    <li><a href="https://docs.google.com/presentation/d/1NpO0pco0oo-H5hLs1QOPh1SWi0SGr62YfH1GuIEXBk4/pub?start=false&loop=false&delayms=10000">Last year's presentation on basics of demo programming</a></li>
+    <li>Rocket is a tool for syncing music and visuals in demoscene productions. <a href="http://www.graffathon.fi/downloads/Rocket/">Download the binaries here</a>. <a href="https://github.com/kusma/rocket">Github repository</a> has further documentation.</li>
+    <li>Moonlander is a library for using Rocket in Processing. <a href="http://www.graffathon.fi/downloads/Moonlander/">Read more and download.</a></li>
+  </ul>
+  <h2>Production rules</h2>
+  <ul>
+    <li>Maximum showing time is 4 minutes.</li>
+    <li>Resolution is 1920x1080 @ 60 Hz.</li>
+    <li>Teams should have 1-4 members.</li>
+  </ul>
 </div>
 {% endblock %}
