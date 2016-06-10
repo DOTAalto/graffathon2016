@@ -194,6 +194,17 @@ body {
 }
 .who-is-behind-this {
   padding-top: 20px;
+  .logos {
+    text-align: center;
+    img {
+      width: 250px;
+      margin: 20px;
+    }
+    .futuremark img {
+      width: 350px;
+      margin-bottom: 25px;
+    }
+  }
   p {
     color: rgb(100, 100, 100);
     font-size: 16px;

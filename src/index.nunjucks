@@ -27,7 +27,14 @@
       </div>
     </div>
     <div class="who-is-behind-this">
-      <a href="http://dot.ayy.fi"><img src="http://dot.ayy.fi/uploads/images/dot_logo_2011_small.png" alt="Digital Media Club Aalto University"></a>
+      <div class="logos">
+        <a href="http://dot.ayy.fi"><img src="http://dot.ayy.fi/uploads/images/dot_logo_2011_small.png" alt="Digital Media Club Aalto University"></a>
+        <a href="https://www.nvidia.co.uk/page/home.html"><img src="{{ baseUrl }}images/nvidia.png" alt="Nvidia"></a>
+        <a href="https://reaktor.com/"><img src="{{ baseUrl }}images/reaktor.png" alt="Reaktor"></a>
+        <a class="futuremark" href="http://www.futuremark.com/"><img src="{{ baseUrl }}images/futuremark.png" alt="Futuremark"></a>
+        <a href="http://www.rightware.com/"><img src="{{ baseUrl }}images/rightware.png" alt="Rightware"></a>
+      </div>
+
       <p>The event is organized by the active members of DOT board and the facilities are provided by Aalto ES.<br> Contact us at dot-hallitus@list.ayy.fi</p>
     </div>
   </div>
