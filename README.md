@@ -13,6 +13,7 @@ gulp serve --open
 
 ````
 pip install Fabric
+git pull
 fab deploy
 ````
 
