@@ -22,5 +22,11 @@
     <li>Resolution is 1920x1080 @ 60 Hz.</li>
     <li>Teams should have 1-4 members.</li>
   </ul>
+  <h2>Machine specs</h2>
+  <ul>
+    <li>i7-3930K</li>>
+    <li>Nvidia Geforce GTX 980 Ti</li>
+    <li>16 GB RAM</li>
+  </ul>
 </div>
 {% endblock %}
