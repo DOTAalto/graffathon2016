@@ -37,7 +37,7 @@
         <a href="http://www.rightware.com/"><img src="{{ baseUrl }}images/rightware.png" alt="Rightware"></a>
       </div>
 
-      <p>The event is organized by the active members of DOT board and the facilities are provided by Aalto ES.<br> Contact us at dot-hallitus@list.ayy.fi</p>
+      <p>The event is organized by the active members of DOT board and the facilities are provided by Aalto ES. Thanks to <a href="http://oubs.ayy.fi">OUBS</a> for streaming the event.<br> Contact us at dot-hallitus@list.ayy.fi</p>
     </div>
   </div>
 {% endblock %}
