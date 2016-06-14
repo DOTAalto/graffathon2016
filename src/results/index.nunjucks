@@ -8,7 +8,7 @@
 {% block content %}
 <div class="container">
   <h2>Results</h2>
-  <h3>Oldschool combo</h3>
+  <h3>Oldschool compo</h3>
   <ol class="results">
     <li>Boo - Gluster <span>(172 pts)</span></li>
     <li>I Want To Revolve - Primitive <span>(154 pts)</span></li>
@@ -23,7 +23,7 @@
     <li>Spheres, Balls and Other Circular thinfs - Xywzel<span> (80 pts)</span></li>
     <li>huoraluola's eXpreZZ - Олья &amp; Яща<span> (34 pts)</span></li>
   </ol>
-  <h3>Beginner combo</h3>
+  <h3>Beginner compo</h3>
   <ol class="results">
     <li>1111 - idaen hitain <span>(159 pts)</span></li>
     <li>ASCII Dreams - Team KC <span>(145 pts)</span></li>
