@@ -7,6 +7,7 @@
 
 {% block content %}
 <div class="container">
+  <p><a href="https://www.youtube.com/playlist?list=PLmRDkQf8W1WFpwUKnc8Z6mK6iaNncnb1z">See the presentations on Youtube</a></p>
   <section class="schedule-section">
     <h2>Friday 10.6.</h2>
     <table class="table">
@@ -54,11 +55,11 @@
       </tr>
       <tr>
         <td>14:15</td>
-        <td>Making Music With Shaders</td>
+        <td><a href="{{ baseUrl }}presentations/additive_slides.pdf">Making Music With Shaders</a></td>
       </tr>
       <tr>
         <td>14:45</td>
-        <td>Modern GPU Architecture</td>
+        <td><a href="{{ baseUrl }}presentations/graffathon-2016-nvidia-gpuarch.pdf">Modern GPU Architecture</a></td>
       </tr>
       <tr>
         <td>15:15</td>
